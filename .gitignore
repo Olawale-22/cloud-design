@@ -1,0 +1,6 @@
+# ../task-definition.json
+# [task-definition.json](http://_vscodecontentref_/2)
+
+node_modules/
+*.log
+.DS_Store
