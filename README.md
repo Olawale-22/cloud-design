@@ -106,6 +106,12 @@ aws ecs describe-services --cluster orchestrator-cluster --services orchestrator
     --policy-type TargetTrackingScaling `
     --target-tracking-scaling-policy-configuration file://target-tracking-scaling-policy.json
 ```
+### Demo
+Below are examples of logs and alarm notfictaions set up for our service with aws cloudwatch. these alarm notfications are sent to my email each time the specified trigger is activated.
+![Alarm Infrastructures](./imgs/alarm.png)
+![high-cpu](./imgs/high-cpu.png)
+![low-cpu](./imgs/lower-cpu.png)
+![Scale-tracker](./imgs/high-scaling.png)
 
 ### Summary
 - **Set Up AWS S3**: Create an S3 bucket and configure IAM roles for access.
