@@ -107,7 +107,7 @@ aws ecs describe-services --cluster orchestrator-cluster --services orchestrator
     --target-tracking-scaling-policy-configuration file://target-tracking-scaling-policy.json
 ```
 ### Demo
-Below are examples of logs and alarm notfictaions set up for our service with aws cloudwatch. these alarm notfications are sent to my email each time the specified trigger is activated.
+Below are examples of logs and alarm notfications set up for our service with aws cloudwatch. these alarm notify us (by email) when the datapoint has exceeded, reached or below the specified threshold.
 ![Alarm Infrastructures](./imgs/alarm.png)
 ![high-cpu](./imgs/high-cpu.png)
 ![low-cpu](./imgs/lower-cpu.png)
